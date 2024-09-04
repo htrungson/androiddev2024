@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
-* Project Name: *Your Project Name here*
+* Name: Hoàng Trung Sơn
+* ID: 22BI13394
+* Group ID: 3
+* Project Name: Wikipedia Client
