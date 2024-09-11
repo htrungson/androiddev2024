@@ -1,9 +1,12 @@
 package vn.edu.usth.usthweather;
 
 import android.os.Bundle;
+import android.graphics.Color;
 
 import androidx.fragment.app.Fragment;
-
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.ImageView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -69,7 +72,7 @@ public class ForecastFragment extends Fragment {
 
         // Create an ImageView
         ImageView weatherIcon = new ImageView(getActivity());
-        weatherIcon.setImageResource(R.drawable.weather_icon); // Replace with your icon name
+//        weatherIcon.setImageResource(R.drawable.weather_icon); // Replace with your icon name
 
         // Add the TextView and ImageView to the LinearLayout
         layout.addView(dayTextView);
