@@ -1,0 +1,5 @@
+<!-- res/values-vi/strings.xml -->
+<resources>
+    <string name="app_name">Ứng Dụng Của Tôi</string>
+    <string name="welcome_message">Chào mừng đến với Ứng Dụng Của Tôi</string>
+</resources>
