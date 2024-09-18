@@ -1,66 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_blue"
-    android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/forecast_day_2"
-        android:layout_width="wrap_content"
+    <!-- Blue Forecast Area -->
+    <LinearLayout
+        android:id="@+id/forecast_area"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="Mon - Showers - 21C - 23C"
-        android:textColor="@color/black" />
+        android:background="#2196F3" <!-- Blue color -->
+    android:padding="16dp"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/forecast_day_4"
+        android:id="@+id/forecast_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="Tue - Showers - 21C - 23C"
-        android:textColor="@color/black" />
+        android:text="Forecast"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"/>
 
-    <TextView
-        android:id="@+id/forecast_day_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="Wes - Dry - 22C - 27C"
-        android:textColor="@color/black" />
-
-    <TextView
-        android:id="@+id/forecast_day_5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="Thu - Dry - 22C - 27C"
-        android:textColor="@color/black" />
-
-    <TextView
-        android:id="@+id/forecast_day_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="Fri - Sunny - 22C - 27C"
-        android:textColor="@color/black" />
-
-    <TextView
-        android:id="@+id/forecast_day_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="Sat - Showers - 22C - 27C"
-        android:textColor="@color/black" />
-
-    <TextView
-        android:id="@+id/forecast_day_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="Sun - Sunny - 24C - 27C"
-        android:textColor="@color/black" />
-
+    <!-- You can add more views here as needed for the forecast display -->
 
 </LinearLayout>
+
+    </LinearLayout>
